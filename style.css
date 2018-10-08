@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+header {
+    margin-top: 20px;
+}
+
+#title {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+    color: rgb(36, 90, 172);
+    border-style: solid;
+    clear: both;  
+}
+
+.team_image {
+    float: left;
+}
+
+footer {    
+    background-color: rgb(36, 90, 172);
+    color: white;
+    text-align: left;
+    padding: 15px 15px 15px 15px;
+    clear: both;
+    margin-top: 10px;  
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;;
+    overflow: hidden;
+    background-color:rgb(36, 90, 172);
+    margin-bottom: 20px;
+    clear: both;
+}
+
+li {
+    float: left;     
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.slack img{
+    float:right;
+    padding: 5px 5px 5px 5px;
+    
+  }
+
+li a:hover {
+    background-color: grey;
+}
+
+.team_row {
+    display: block;
+    columns: 4;
+    padding: 15px 4px;
+    color: white;
+    background-color:rgb(36, 90, 172);
+    text-align: center; 
+  }
+  
+.video {
+    display: block;
+    columns: 3;
+    padding: 0 4px;
+}
+
+figcaption {
+    padding: 10px;
+}
+
+
+.squad {
+    Color: rgb(36, 90, 172);
+    font-size:50px; 
+    text-align: left;
+    padding: 2px;
+    border-bottom-style: solid;
+    border-bottom-color:black;
+}
+
+.highlights_text {
+
+    Color: rgb(36, 90, 172);
+    font-size:50px; 
+    text-align: center;
+    padding: 10px;
+}
+
+.news_feature {
+    Color: rgb(36, 90, 172);
+    font-size: 30px; 
+    text-align: left;
+    padding-left: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(36, 90, 172);
+}
+
+.feature_image {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .feature_image:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  
+
